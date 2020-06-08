@@ -1,0 +1,60 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: PopThin;
+  src: url("../fonts/Poppins/Poppins-Thin.ttf");
+}
+
+.footer {
+  background-color: black;
+  padding: 20px;
+}
+
+.footerSemicolon {
+  height: 35px;
+  width: 35px;
+}
+
+.crossfit h2 {
+  font-family: PopThin;
+  text-align: center;
+  color: white;
+  padding: 5px;
+}
+
+.semicolon h2 {
+  font-family: PopThin;
+  color: white;
+}
+
+.semicolon {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 10px;
+}
+
+.semicolon a {
+  text-decoration: none;
+}
+
+.crossfit a {
+  text-decoration: none;
+}
+
+@media (max-width: 414px) {
+  .crossfit h2 {
+    font-size: 16px;
+  }
+  .semicolon h2 {
+    font-size: 14px;
+  }
+  .footerSemicolon {
+    height: 25px;
+    width: 25px;
+  }
+}
