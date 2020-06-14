@@ -17,14 +17,14 @@
   font-size: 50px;
   color: white;
   text-align: center;
-  padding: 30px;
+  padding: 18px;
 }
 
 .whatCrossfit p {
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
-  padding: 30px;
+  padding: 0px 18px 18px 18px;
 }
 
 .fromFounder {
@@ -36,14 +36,41 @@
   font-size: 50px;
   color: white;
   text-align: center;
-  padding: 30px;
+  padding: 18px;
 }
 
 .fromFounder p {
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
-  padding: 30px;
+  padding: 0px 18px 18px 18px;
+}
+
+.atish {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.atishImage {
+  height: 180px;
+  width: 180px;
+  margin: 20px;
+  border-radius: 50%;
+  border: 2px solid #ec3642;
+}
+
+.atishName {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.atishName h4 {
+  font-family: PopRegular;
+  font-size: 30px;
+  color: white;
+  margin: 0px 20px 20px 40px;
 }
 
 .FounderAchievements {
@@ -55,19 +82,19 @@
   font-size: 50px;
   color: #353535;
   text-align: center;
-  padding: 30px;
+  padding: 18px;
 }
 
 .FounderAchievements p ol {
   color: #353535;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
-  padding: 30px;
+  padding: 0px 18px 18px 18px;
   list-style: none;
 }
 
 .FounderAchievements p ol li {
-  padding: 10px;
+  padding: 0px 10px 10px 10px;
 }
 
 .experience {
@@ -79,19 +106,19 @@
   font-size: 50px;
   color: white;
   text-align: center;
-  padding: 30px;
+  padding: 18px;
 }
 
 .experience p ol {
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
-  padding: 30px;
+  padding: 0px 18px 18px 18px;
   list-style: none;
 }
 
 .experience p ol li {
-  padding: 10px;
+  padding: 0px 10px 10px 10px;
 }
 
 .clientServed {
@@ -103,19 +130,19 @@
   font-size: 50px;
   color: white;
   text-align: center;
-  padding: 30px;
+  padding: 18px;
 }
 
 .clientServed p ol {
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
-  padding: 30px;
+  padding: 0px 18px 18px 18px;
   list-style: none;
 }
 
 .clientServed p ol li {
-  padding: 10px;
+  padding: 0px 10px 10px 10px;
 }
 
 .currentlyWorking {
@@ -127,19 +154,19 @@
   font-size: 50px;
   color: #353535;
   text-align: center;
-  padding: 30px;
+  padding: 18px;
 }
 
 .currentlyWorking p ol {
   color: #353535;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
-  padding: 30px;
+  padding: 0px 18px 18px 18px;
   list-style: none;
 }
 
 .currentlyWorking p ol li {
-  padding: 10px;
+  padding: 0px 10px 10px 10px;
 }
 
 .coaches {
@@ -151,14 +178,14 @@
   font-size: 50px;
   color: white;
   text-align: center;
-  padding: 30px;
+  padding: 18px;
 }
 
 .coaches p {
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
-  padding: 30px;
+  padding: 0px 18px 18px 18px;
 }
 
 .reviews {
@@ -170,14 +197,14 @@
   font-size: 50px;
   color: white;
   text-align: center;
-  padding: 30px;
+  padding: 18px;
 }
 
 .reviews p {
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
-  padding: 30px;
+  padding: 0px 18px 18px 18px;
 }
 
 .coachesProfileCard {
@@ -195,6 +222,16 @@
   .currentlyWorking h1,
   .coaches h1,
   .reviews h1 {
-    font-size: 40px;
+    font-size: 30px;
+  }
+  .whatCrossfit p,
+  .fromFounder p,
+  .FounderAchievements p,
+  .experience p,
+  .clientServed p,
+  .currentlyWorking p,
+  .coaches p,
+  .reviews p {
+    font-size: 18px;
   }
 }

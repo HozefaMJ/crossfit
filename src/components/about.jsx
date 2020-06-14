@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import "../styles/about.css";
 import Navbar from "./common/navbar";
 //import Carousel from "./common/carousel";
+import atish from "../img/atish.png";
 
 class About extends Component {
   state = {};
@@ -16,9 +17,10 @@ class About extends Component {
             CrossFit juniorz is a unique fitness program designed for
             preschoolers and school kids. It molds simple excercises in such a
             way that makes interesting and fun to learn without being noticed by
-            kids how much they have put in. Its not just fitness its a overall
-            developement program mixture of functional excercises, mental
-            excercises and martial art.
+            kids how much they have put in.
+            <br />
+            <br /> Its not just fitness its a overall developement program
+            mixture of functional excercises, mental excercises and martial art.
           </p>
         </div>
         <div className="fromFounder">
@@ -27,10 +29,18 @@ class About extends Component {
             Being a professional boxer I understand the importance of explosive
             power and longer endurance, and CrossFit is the thing which suffices
             both needs in a shorter period of time rather than putting hours of
-            endurance and weight training. For young kids, it creates physical
-            structure in such a way that they can pursue any sport which
-            requires physical strength and endurance.
+            endurance and weight training.
+            <br />
+            <br /> For young kids, it creates physical structure in such a way
+            that they can pursue any sport which requires physical strength and
+            endurance.
           </p>
+          <div className="atish">
+            <img className="atishImage" src={atish} alt="" />
+          </div>
+          <div className="atishName">
+            <h4>Atish Kavde</h4>
+          </div>
         </div>
         <div className="FounderAchievements">
           <h1>Founder's Achievements</h1>

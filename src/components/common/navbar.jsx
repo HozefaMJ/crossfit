@@ -32,7 +32,7 @@ class Navbar extends Component {
         <nav>
           <div className="mainNav">
             <h3 className="logo">
-              <Link to="/">CrossFit</Link>
+              <Link to="/">CrossFit Juniorz</Link>
             </h3>
             <h3 className="menu" onClick={this.navToggle}>
               Menu
@@ -44,6 +44,7 @@ class Navbar extends Component {
             <h3 className="logo-shutter">
               <Link to="/" onClick={this.linkClose}>
                 CrossFit
+                <br /> Juniorz
               </Link>
             </h3>
             <h3 className="menu-shutter" onClick={this.linkClose}>

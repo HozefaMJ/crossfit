@@ -21,16 +21,15 @@ class Home extends Component {
         <div className="mission">
           <h1>Our Mission:</h1>
           <p>
-            Cross fit juniorz is founded with a mission to give budding kids a
-            healthier and fitter lifestyle and prepare them for future course in
-            mental and physical developement.
+            To make budding kids healthier and fitter lifestyle and prepare them
+            for future course, in mental and development.
           </p>
         </div>
         <div className="vision">
           <h1>Our Vision:</h1>
           <p>
-            Its shares the same vision as the initiative of Indian government
-            like Fit india movement, hum fit toh india fit, khelo india games.
+            As the initiative of the indian government like Fit India Movement,
+            HUM FIT TO INDIA FIT, Khelo India Games.
           </p>
         </div>
         <div className="Inspiration">
@@ -38,16 +37,22 @@ class Home extends Component {
           <p>
             We draw our inspiration from fit india movement, Hon’ble Prime
             Minister of India has launched the Fit India Movement on 29 Aug 2019
-            with a view to make Physical Fitness a way of life. Fit India
-            Movement aims at behavioural changes – from sedentary lifestyle to
-            physically active way of day-to-day living. Fit India would be a
-            success only when it becomes a people’s movement. We have to play
-            the role of a catalyst. ‘How to Live’ ought to be the first pillar
-            of formal education. This involves teaching and practicing the art
-            of taking care of one’s body and health daily. Schools have to be
-            the first formal institution after home where physical fitness is
-            taught and practiced. In the above background, the Fit India Mission
-            encourages Schools to Organize a Fit India School Week in month of
+            with a view to make Physical Fitness a way of life.
+            <br />
+            <br />
+            Fit India Movement aims at behavioural changes – from sedentary
+            lifestyle to physically active way of day-to-day living. Fit India
+            would be a success only when it becomes a people’s movement. We have
+            to play the role of a catalyst. ‘How to Live’ ought to be the first
+            pillar of formal education.
+            <br />
+            <br /> This involves teaching and practicing the art of taking care
+            of one’s body and health daily. Schools have to be the first formal
+            institution after home where physical fitness is taught and
+            practiced.
+            <br />
+            <br /> In the above background, the Fit India Mission encourages
+            Schools to Organize a Fit India School Week in month of
             November/December. It has also prepared a set of Fit India School
             Certification with simple and easy parameters.
           </p>
@@ -58,11 +63,13 @@ class Home extends Component {
             For thousands of people across the country, going to a regular gym
             just doesn't cut it. Instead, they prefer CrossFit routines: like
             swinging kettlebells, flipping tires, and doing squats and dead
-            lifts until they drop. Now kids as young as 4 are taking part in
-            such activities because it is complex and provides a wide variety of
-            excercises crossfit juniorz stays on these parameters but
-            differently by making it more fun and enjoyable by combination which
-            is more than just crossfit.
+            lifts until they drop.
+            <br />
+            <br /> Now kids as young as 4 are taking part in such activities
+            because it is complex and provides a wide variety of excercises
+            crossfit juniorz stays on these parameters but differently by making
+            it more fun and enjoyable by combination which is more than just
+            crossfit.
           </p>
         </div>
         <div className="IdeaCrossfit">
@@ -70,9 +77,11 @@ class Home extends Component {
           <p>
             As a parent, you want to encourage your child to be fit, healthy and
             active, however there are so many types of sports and activities
-            your child could take part in – so how do you know which will
-            benefit the most? CrossFit gives the platform for all the needs and
-            comes up with number of benefits such as:
+            your child could take part in
+            <br />
+            <br /> So how do you know which will benefit the most? CrossFit
+            gives the platform for all the needs and comes up with number of
+            benefits such as:
           </p>
           <ol>
             <li>1. Foundation for sports.</li>

@@ -104,7 +104,7 @@ body {
   color: white;
   font-size: 25px;
   text-align: center;
-  padding: 30px;
+  padding: 0px 30px 30px 30px;
 }
 
 .vision {
@@ -123,7 +123,7 @@ body {
   color: white;
   font-size: 25px;
   text-align: center;
-  padding: 30px;
+  padding: 0px 30px 30px 30px;
 }
 
 .Inspiration {
@@ -142,7 +142,7 @@ body {
   color: #353535;
   font-size: 25px;
   text-align: center;
-  padding: 30px;
+  padding: 0px 30px 30px 30px;
 }
 
 .howDifferent {
@@ -161,7 +161,7 @@ body {
   color: white;
   font-size: 25px;
   text-align: center;
-  padding: 30px;
+  padding: 0px 30px 30px 30px;
 }
 
 .IdeaCrossfit {
@@ -180,19 +180,19 @@ body {
   color: white;
   font-size: 25px;
   text-align: center;
-  padding: 30px;
+  padding: 0px 30px 30px 30px;
 }
 
 .IdeaCrossfit ol {
   color: white;
   font-size: 25px;
   text-align: center;
-  padding: 30px;
+  padding: 0px 30px 30px 30px;
   list-style: none;
 }
 
 .IdeaCrossfit ol li {
-  padding: 20px;
+  padding: 0px 20px 20px 20px;
 }
 
 .csr {
@@ -211,22 +211,27 @@ body {
   color: #353535;
   font-size: 30px;
   text-align: center;
-  padding: 30px;
+  padding: 0px 30px 30px 30px;
 }
 
 .csr ol {
   color: #353535;
   font-size: 25px;
   text-align: center;
-  padding: 30px;
+  padding: 0px 30px 30px 30px;
   list-style: none;
 }
 
 .csr ol li {
-  padding: 20px;
+  padding: 0px 10px 10px 10px;
 }
 
 @media (max-width: 414px) {
+  .csr ol,
+  .IdeaCrossfit ol {
+    font-size: 17px;
+  }
+
   .tagline {
     grid-row: 1/3;
   }
@@ -255,6 +260,14 @@ body {
   .howDifferent h1,
   .csr h1,
   .IdeaCrossfit h1 {
-    font-size: 40px;
+    font-size: 30px;
+  }
+  .mission p,
+  .vision p,
+  .Inspiration p,
+  .howDifferent p,
+  .csr p,
+  .IdeaCrossfit p {
+    font-size: 20px;
   }
 }
