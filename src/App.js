@@ -10,6 +10,9 @@ import About from "./components/about";
 import NotFound from "./components/notFound";
 
 import Footer from "./components/common/footer";
+import TakeMeUp from "./components/common/takeMeUp";
+
+//import "./App.css";
 
 function App() {
   return (
@@ -26,6 +29,7 @@ function App() {
           <Redirect to="/not-found" />
         </Switch>
       </main>
+      <TakeMeUp />
       <Footer />
     </React.Fragment>
   );

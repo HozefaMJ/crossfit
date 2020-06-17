@@ -76,7 +76,7 @@ function Contact() {
           <button className="button" onClick={handleSubmit}>
             Punch me
           </button>
-          <p>Don't worry you will not be spammed!</p>
+          <p>Don't worry we'll spam you!</p>
         </form>
       </div>
     </div>

@@ -3,7 +3,7 @@ nav {
   top: 0%;
   min-height: 10vh;
   width: 100%;
-
+  background: beige;
   z-index: 3;
 }
 
@@ -21,10 +21,15 @@ nav {
   color: black;
 }
 
-.logo a {
+.logo div {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid black;
   text-decoration: none;
-  color: black;
-  font-family: PopRegular;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("../img/logo.jpg");
+  background-size: cover;
 }
 
 .menu {
@@ -51,7 +56,7 @@ nav {
   top: 0px;
   left: 0px;
   width: 100%;
-  height: 25vh;
+  height: 28vh;
   background: beige;
   align-items: center;
   z-index: 4;
@@ -69,14 +74,20 @@ nav {
 
 .menu-shutter,
 .logo-shutter {
-  font-size: 20px;
+  font-size: 25px;
   cursor: pointer;
   font-family: PopThin;
 }
 
-.logo-shutter a {
+.logo-shutter div {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid black;
   text-decoration: none;
-  color: #000000;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("../img/logo.jpg");
+  background-size: cover;
 }
 
 .nav-links {
@@ -88,7 +99,7 @@ nav {
 
 .nav-links li a {
   padding: 0px 20px;
-  font-size: 26px;
+  font-size: 30px;
   color: black;
 
   text-decoration: none;
@@ -113,12 +124,40 @@ nav {
   font-style: italic;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 375px) and (min-width: 350px) {
   nav {
     position: relative;
   }
   .nav-open {
-    height: 55vh;
+    height: 52vh;
+  }
+
+  .nav-links {
+    position: fixed;
+    height: 40vh;
+    flex-direction: column;
+    left: 28%;
+    top: 20%;
+  }
+  .logo-shutter div {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .menu-shutter {
+    margin-left: 10px;
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 414px) and (min-width: 400px) {
+  nav {
+    position: relative;
+  }
+  .nav-open {
+    height: 50vh;
   }
 
   .nav-links {
@@ -126,5 +165,109 @@ nav {
     height: 40vh;
     flex-direction: column;
     left: 30%;
+    top: 20%;
+  }
+  .logo-shutter div {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .menu-shutter {
+    margin-left: 10px;
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 415px) {
+  nav {
+    position: relative;
+  }
+  .nav-open {
+    height: 45vh;
+  }
+
+  .nav-links {
+    position: fixed;
+    height: 40vh;
+    flex-direction: column;
+    left: 39%;
+    top: 15%;
+  }
+
+  .nav-links li a {
+    font-size: 35px;
+    padding: 10px;
+  }
+
+  .mainNav {
+    padding: 40px;
+  }
+  .logo,
+  .menu {
+    font-size: 35px;
+  }
+  .logo div {
+    height: 70px;
+    width: 70px;
+  }
+  .logo-shutter div {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .menu-shutter {
+    margin-right: 30px;
+    margin-top: 30px;
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 770px) {
+  nav {
+    position: relative;
+  }
+  .nav-open {
+    height: 45vh;
+  }
+
+  .nav-links {
+    position: fixed;
+    height: 40vh;
+    flex-direction: column;
+    left: 40%;
+    top: 15%;
+  }
+
+  .nav-links li a {
+    font-size: 42px;
+    padding: 10px;
+  }
+
+  .mainNav {
+    padding: 52px;
+  }
+  .logo,
+  .menu {
+    font-size: 40px;
+  }
+  .logo div {
+    height: 70px;
+    width: 70px;
+  }
+  .logo-shutter div {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .menu-shutter {
+    margin-right: 30px;
+    margin-top: 25px;
+    font-size: 35px;
   }
 }

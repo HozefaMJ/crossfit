@@ -226,7 +226,7 @@ body {
   padding: 0px 10px 10px 10px;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 375px) and (min-width: 350px) {
   .csr ol,
   .IdeaCrossfit ol {
     font-size: 17px;
@@ -243,7 +243,7 @@ body {
   }
 
   .tagline h2 {
-    font-size: 50px;
+    font-size: 57px;
     padding-left: 20px;
     padding-top: 40px;
   }
@@ -251,7 +251,7 @@ body {
   .tagline h1 {
     padding-left: 20px;
     padding-top: 40px;
-    font-size: 115px;
+    font-size: 110px;
   }
 
   .mission h1,
@@ -269,5 +269,143 @@ body {
   .csr p,
   .IdeaCrossfit p {
     font-size: 20px;
+  }
+}
+
+@media (max-width: 414px) and (min-width: 400px) {
+  .csr ol,
+  .IdeaCrossfit ol {
+    font-size: 17px;
+  }
+
+  .tagline {
+    grid-row: 1/3;
+  }
+  .tagline h3 {
+    font-size: 35px;
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+
+  .tagline h2 {
+    font-size: 65px;
+    padding-left: 20px;
+    padding-top: 40px;
+  }
+
+  .tagline h1 {
+    padding-left: 20px;
+    padding-top: 40px;
+    font-size: 120px;
+  }
+
+  .mission h1,
+  .vision h1,
+  .Inspiration h1,
+  .howDifferent h1,
+  .csr h1,
+  .IdeaCrossfit h1 {
+    font-size: 30px;
+  }
+  .mission p,
+  .vision p,
+  .Inspiration p,
+  .howDifferent p,
+  .csr p,
+  .IdeaCrossfit p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 415px) {
+  .csr ol,
+  .IdeaCrossfit ol {
+    font-size: 17px;
+  }
+
+  .tagline {
+    grid-row: 1/3;
+  }
+  .tagline h3 {
+    font-size: 90px;
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+
+  .tagline h2 {
+    font-size: 120px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+  }
+
+  .tagline h1 {
+    padding-left: 30px;
+    padding-bottom: 20px;
+    font-size: 225px;
+  }
+
+  .mission h1,
+  .vision h1,
+  .Inspiration h1,
+  .howDifferent h1,
+  .csr h1,
+  .IdeaCrossfit h1 {
+    font-size: 30px;
+  }
+  .mission p,
+  .vision p,
+  .Inspiration p,
+  .howDifferent p,
+  .csr p,
+  .IdeaCrossfit p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 770px) {
+  .csr ol,
+  .IdeaCrossfit ol {
+    font-size: 20px;
+  }
+
+  .tagline {
+    grid-row: 1/3;
+  }
+  .tagline h3 {
+    font-size: 120px;
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+
+  .tagline h2 {
+    font-size: 150px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+  }
+
+  .tagline h1 {
+    padding-left: 30px;
+    padding-bottom: 20px;
+    font-size: 275px;
+  }
+
+  .mission h1,
+  .vision h1,
+  .Inspiration h1,
+  .howDifferent h1,
+  .csr h1,
+  .IdeaCrossfit h1 {
+    font-size: 50px;
+  }
+  .mission p,
+  .vision p,
+  .Inspiration p,
+  .howDifferent p,
+  .csr p,
+  .IdeaCrossfit p {
+    font-size: 25px;
   }
 }

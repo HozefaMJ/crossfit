@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import { Link, NavLink } from "react-router-dom";
 
+//import logo from "../../img/logo.jpg";
 import "../../styles/navbar.css";
 
 class Navbar extends Component {
@@ -32,7 +33,10 @@ class Navbar extends Component {
         <nav>
           <div className="mainNav">
             <h3 className="logo">
-              <Link to="/">CrossFit Juniorz</Link>
+              <Link to="/">
+                {/* <img src={logo} alt="Crossfit Logo" /> */}
+                <div></div>
+              </Link>
             </h3>
             <h3 className="menu" onClick={this.navToggle}>
               Menu
@@ -43,8 +47,7 @@ class Navbar extends Component {
           <div className="mainNav-shutter">
             <h3 className="logo-shutter">
               <Link to="/" onClick={this.linkClose}>
-                CrossFit
-                <br /> Juniorz
+                <div></div>
               </Link>
             </h3>
             <h3 className="menu-shutter" onClick={this.linkClose}>

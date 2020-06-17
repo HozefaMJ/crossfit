@@ -213,7 +213,31 @@
   align-items: center;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 375px) and (min-width: 350px) {
+  .whatCrossfit h1,
+  .fromFounder h1,
+  .FounderAchievements h1,
+  .experience h1,
+  .clientServed h1,
+  .currentlyWorking h1,
+  .coaches h1,
+  .reviews h1 {
+    font-size: 25px;
+  }
+  .whatCrossfit p,
+  .fromFounder p,
+  .FounderAchievements p ol,
+  .experience p ol,
+  .clientServed p ol,
+  .currentlyWorking p ol,
+  .coaches p ol,
+  .reviews p ol {
+    font-size: 16px;
+    padding: 25px;
+  }
+}
+
+@media (max-width: 414px) and (min-width: 400px) {
   .whatCrossfit h1,
   .fromFounder h1,
   .FounderAchievements h1,
@@ -226,12 +250,60 @@
   }
   .whatCrossfit p,
   .fromFounder p,
-  .FounderAchievements p,
-  .experience p,
-  .clientServed p,
-  .currentlyWorking p,
-  .coaches p,
-  .reviews p {
-    font-size: 18px;
+  .FounderAchievements p ol,
+  .experience p ol,
+  .clientServed p ol,
+  .currentlyWorking p ol,
+  .coaches p ol,
+  .reviews p ol {
+    font-size: 16px;
+    padding: 30px;
+  }
+}
+
+@media (min-width: 768px) and (min-width: 415px) {
+  .whatCrossfit h1,
+  .fromFounder h1,
+  .FounderAchievements h1,
+  .experience h1,
+  .clientServed h1,
+  .currentlyWorking h1,
+  .coaches h1,
+  .reviews h1 {
+    font-size: 40px;
+  }
+  .whatCrossfit p,
+  .fromFounder p,
+  .FounderAchievements p ol,
+  .experience p ol,
+  .clientServed p ol,
+  .currentlyWorking p ol,
+  .coaches p ol,
+  .reviews p ol {
+    font-size: 20px;
+    padding: 30px;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 770px) {
+  .whatCrossfit h1,
+  .fromFounder h1,
+  .FounderAchievements h1,
+  .experience h1,
+  .clientServed h1,
+  .currentlyWorking h1,
+  .coaches h1,
+  .reviews h1 {
+    font-size: 45px;
+  }
+  .whatCrossfit p,
+  .fromFounder p,
+  .FounderAchievements p ol,
+  .experience p ol,
+  .clientServed p ol,
+  .currentlyWorking p ol,
+  .coaches p ol,
+  .reviews p ol {
+    font-size: 24px;
   }
 }
