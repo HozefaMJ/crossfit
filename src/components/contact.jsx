@@ -44,6 +44,15 @@ function Contact() {
         <h1>Call : 9372347556</h1>
         <h1>Whatsapp : 9029121994</h1>
       </div>
+      <div className="socialLinksContact">
+        <h1>Follow us at: </h1>
+        <a href="https://www.instagram.com/crossfitjuniorz/">
+          <h1>In</h1>
+        </a>
+        <a href="https://www.youtube.com/channel/UCeI2nEimT1yFFWwUpd0ZUVw">
+          <h1>Yt</h1>
+        </a>
+      </div>
       <div className="form">
         <p>Want our executive to contact you?</p>
         <form onSubmit={handleSubmit} action="">

@@ -1,0 +1,264 @@
+.gallery {
+  background-color: #ec3642;
+  animation: example;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 5s;
+}
+
+/* The animation code */
+@keyframes example {
+  0% {
+    background-color: #ec3642;
+  }
+  25% {
+    background-color: white;
+  }
+  50% {
+    background-color: #353535;
+  }
+  75% {
+    background-color: beige;
+  }
+  100% {
+    background-color: #ec3642;
+  }
+}
+
+.img-1 {
+  height: 350px;
+  width: 50%;
+  border: 3px solid black;
+  margin: 0%;
+}
+.img-2 {
+  height: 350px;
+  width: 50%;
+  border: 3px solid black;
+  margin: 0%;
+}
+.img-3 {
+  height: 250px;
+  width: 25%;
+  border: 3px solid black;
+  margin: 0%;
+}
+.img-4 {
+  height: 250px;
+  width: 25%;
+  border: 3px solid black;
+  margin: 0%;
+}
+.img-5 {
+  height: 250px;
+  width: 25%;
+  border: 3px solid black;
+  margin: 0%;
+}
+.img-6 {
+  height: 250px;
+  width: 25%;
+  border: 3px solid black;
+  margin: 0%;
+}
+.img-7 {
+  height: 450px;
+  width: 50%;
+  border: 3px solid black;
+  margin: 0%;
+}
+.img-8 {
+  height: 250px;
+  width: 25%;
+  border: 3px solid black;
+  margin: 0%;
+}
+.img-9 {
+  height: 450px;
+  width: 50%;
+  border: 3px solid black;
+  margin: 0%;
+}
+.img-10 {
+  height: 450px;
+  width: 50%;
+  border: 3px solid black;
+  margin: 0%;
+}
+.img-11 {
+  height: 450px;
+  width: 50%;
+  border: 3px solid black;
+  margin: 0%;
+}
+.img-12 {
+  height: 450px;
+  width: 50%;
+  border: 3px solid black;
+  margin: 0%;
+}
+.img-13 {
+  height: 450px;
+  width: 50%;
+  border: 3px solid black;
+  margin: 0%;
+}
+.img-14 {
+  height: 450px;
+  width: 50%;
+  border: 3px solid black;
+  margin: 0%;
+}
+.img-15 {
+  height: 450px;
+  width: 50%;
+  border: 3px solid black;
+  margin: 0%;
+}
+.img-16 {
+  height: 450px;
+  width: 100%;
+  border: 3px solid black;
+  margin: 0%;
+}
+@media (max-width: 375px) and (min-width: 350px) {
+  .img-1 {
+    height: 250px;
+    width: 100%;
+  }
+  .img-2,
+  .img-3 {
+    height: 250px;
+    width: 100%;
+  }
+  .img-4,
+  .img-5,
+  .img-6,
+  .img-8,
+  .img-10 {
+    height: 360px;
+    width: 100%;
+  }
+  .img-7,
+  .img-9,
+  .img-11,
+  .img-13,
+  .img-14,
+  .img-15,
+  .img-16 {
+    width: 100%;
+    height: 250px;
+  }
+  .img-12 {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+@media (max-width: 414px) and (min-width: 400px) {
+  .img-1 {
+    height: 250px;
+    width: 100%;
+  }
+  .img-2,
+  .img-3 {
+    height: 280px;
+    width: 100%;
+  }
+  .img-4,
+  .img-5,
+  .img-6,
+  .img-8,
+  .img-10 {
+    height: 360px;
+    width: 100%;
+  }
+  .img-7,
+  .img-9,
+  .img-11,
+  .img-13,
+  .img-14,
+  .img-15,
+  .img-16 {
+    width: 100%;
+    height: 360px;
+  }
+  .img-12 {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 415px) {
+  .img-1 {
+    height: 350px;
+    width: 100%;
+  }
+  .img-2,
+  .img-3 {
+    height: 400px;
+    width: 100%;
+  }
+  .img-4,
+  .img-5,
+  .img-6,
+  .img-8 {
+    height: 384px;
+    width: 384px;
+  }
+  .img-10 {
+    height: 384px;
+    width: 100%;
+  }
+  .img-7,
+  .img-9,
+  .img-11,
+  .img-13,
+  .img-14,
+  .img-15,
+  .img-16 {
+    width: 100%;
+    height: 360px;
+  }
+  .img-12 {
+    width: 100%;
+    height: 600px;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 770px) {
+  .img-1 {
+    height: 490px;
+    width: 100%;
+  }
+  .img-2,
+  .img-3 {
+    height: 450px;
+    width: 100%;
+  }
+  .img-4,
+  .img-5,
+  .img-6,
+  .img-8 {
+    height: 512px;
+    width: 512px;
+  }
+  .img-10 {
+    height: 560px;
+    width: 100%;
+  }
+  .img-7,
+  .img-9,
+  .img-11,
+  .img-13,
+  .img-14,
+  .img-15,
+  .img-16 {
+    width: 100%;
+    height: 560px;
+  }
+  .img-12 {
+    width: 100%;
+    height: 600px;
+  }
+}

@@ -12,6 +12,15 @@ class Footer extends Component {
             <h2>© CrossFit Juniorz 2020 All rights reserved</h2>
           </a>
         </div>
+        <div className="socialLinks">
+          <h1>Follow us at: </h1>
+          <a href="https://www.instagram.com/crossfitjuniorz/">
+            <h1>In</h1>
+          </a>
+          <a href="https://www.youtube.com/channel/UCeI2nEimT1yFFWwUpd0ZUVw">
+            <h1>Yt</h1>
+          </a>
+        </div>
         <div className="semicolon">
           <a href="https://semicolon-inc.herokuapp.com">
             <h2>Designed & Developed By Semicolon INC</h2>

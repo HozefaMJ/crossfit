@@ -70,13 +70,12 @@ class Navbar extends Component {
                 Blogs
               </NavLink>
             </li>*/}
-            {/* 
             <li>
               <NavLink onClick={this.linkClose} className="link" to="/gallery">
                 Gallery
               </NavLink>
             </li>
-            */}
+            {/* */}
             <li>
               <NavLink onClick={this.linkClose} className="link" to="/contact">
                 Contact
