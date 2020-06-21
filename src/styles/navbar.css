@@ -61,6 +61,7 @@ nav {
   align-items: center;
   z-index: 4;
   color: black;
+  border-radius: 15%;
   transform: translateY(0%);
   transition: all 0.5s ease-out;
 }
