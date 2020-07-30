@@ -30,6 +30,7 @@ class TakeMeUp extends Component {
   scrollToTop() {
     window.scrollTo({
       top: 0,
+
       behavior: "smooth"
     });
   }
@@ -37,8 +38,12 @@ class TakeMeUp extends Component {
   render() {
     const { is_visible } = this.state;
     return (
-      <div >
-        {is_visible && <button className="up" onClick={() => this.scrollToTop()}>Up</button>}
+      <div>
+        {is_visible && (
+          <button className="up" onClick={() => this.scrollToTop()}>
+            Up
+          </button>
+        )}
       </div>
     );
   }

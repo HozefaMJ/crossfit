@@ -36,6 +36,7 @@ class Navbar extends Component {
               <Link to="/">
                 {/* <img src={logo} alt="Crossfit Logo" /> */}
                 <div></div>
+                <h1> Crossfit Juniorz</h1>
               </Link>
             </h3>
             <h3 className="menu" onClick={this.navToggle}>
